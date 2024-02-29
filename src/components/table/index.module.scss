@@ -1,0 +1,19 @@
+.commonTableContainer {
+  --nut-table-cols-padding: 10rpx;
+  --nut-table-border-color: #F2F2F2;
+  :global(.nut-table__main__body__tr) {
+    padding: 0;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 22rpx;
+    color: #333333;
+  }
+  :global(.nut-table__main__head__tr) {
+    background: #E5F0FF;
+    padding: 10rpx;
+    font-family: PingFangSC, PingFang SC;
+    font-weight: 400;
+    font-size: 22rpx;
+    color: #333333;
+  }
+}

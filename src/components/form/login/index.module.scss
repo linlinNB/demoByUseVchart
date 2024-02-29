@@ -1,0 +1,31 @@
+
+.loginFormContainer {
+  .formItem {
+    position: relative;
+    width: 100%;
+    &:after {
+      content: '';
+      background: #E0E0E3;
+      height: 2rpx;
+      position: absolute;
+      left: 54rpx;
+      right: 54rpx;
+      bottom: 0;
+    }
+  }
+
+  .agreeProtocolGroup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    view {
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 24rpx;
+      color: #999999;
+      line-height: 28rpx;
+      display: inline-block;
+    }
+  }
+}

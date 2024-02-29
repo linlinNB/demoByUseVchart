@@ -1,0 +1,23 @@
+.compareWavlerInsuranceBlockContainer {
+  font-size: 24rpx;
+  font-family: PingFangSC, PingFang SC;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  word-break: break-all;
+
+  view {
+    position: relative;
+    display: flex;
+    &:after {
+      content: '|';
+      margin: 0 24rpx;
+    }
+  }
+
+  view:last-of-type {
+    &:after {
+      content: '';
+    }
+  }
+}

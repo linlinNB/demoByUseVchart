@@ -1,0 +1,41 @@
+.compareInsuranceBlockContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  border: 1rpx solid #F2F2F2;
+  .rowGroup {
+    font-family: PingFangSC, PingFang SC;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-bottom: 1rpx solid #F2F2F2;
+    .columnItem {
+      flex-shrink: 0;
+      min-width: 60rpx;
+      min-height: 24rpx;
+      width: auto;
+      height: auto;
+      background: #F2F2F2;
+      font-weight: 400;
+      font-size: 22rpx;
+      padding: 10rpx;
+      color: #999999;
+    }
+
+
+    .dataItem {
+      border-left: 1rpx solid #F2F2F2;
+      flex: 1;
+      padding: 10rpx;
+      font-weight: 400;
+      font-size: 22rpx;
+      color: #333333;
+    }
+
+    &:last-of-type(.rowGroup) {
+      border-bottom: none;
+    }
+  }
+}

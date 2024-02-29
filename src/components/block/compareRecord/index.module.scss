@@ -1,0 +1,25 @@
+.compareRecordBlockContainer {
+  font-size: 24rpx;
+  font-family: PingFangSC, PingFang SC;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  word-break: break-all;
+
+  .name {
+    position: relative;
+    word-break: break-all;
+    display: inline;
+    &:after {
+      content: 'VS';
+      margin: 0 10rpx;
+      color: #1777FF;
+    }
+  }
+
+  view:last-of-type {
+    &:after {
+      content: '';
+    }
+  }
+}

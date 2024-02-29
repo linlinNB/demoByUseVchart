@@ -1,0 +1,20 @@
+.compareSingleInterest {
+  --nut-tag-font-size: 18rpx;
+  --nut-tag-default-border-radius: 6rpx;
+  --nut-tag-height: 30rpx;
+
+  font-family: PingFangSC, PingFang SC;
+  font-weight: 500;
+  font-size: 24rpx;
+  color: #333333;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 8rpx;
+
+  .warning {
+    color: #F96342;
+    font-weight: normal;
+  }
+}

@@ -1,0 +1,28 @@
+.basicBlockContainer {
+  margin-bottom: 18rpx;
+  .title {
+    height: 40rpx;
+    font-weight: 500;
+    font-size: 28rpx;
+    color: #333333;
+    position: relative;
+    padding-left: 24rpx;
+    display: flex;
+    align-items: center;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 8rpx;
+      width: 6rpx;
+      height: 28rpx;
+      background: linear-gradient(180deg, #33AFFF 0%, #1777FF 100%);
+    }
+  }
+
+  .blockContent {
+    margin-top: 20rpx;
+  }
+}

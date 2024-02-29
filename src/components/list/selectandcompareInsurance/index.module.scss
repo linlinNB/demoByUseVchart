@@ -1,0 +1,31 @@
+.selectAndCompareInsuranceContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 26rpx;
+
+  .listItem {
+    position: relative;
+    flex: 1;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -38rpx;
+      width: 52rpx;
+      height: 52rpx;
+      background: #ffffff;
+      border-radius: 52rpx;
+      z-index: 2;
+    }
+  }
+
+  .listItem:last-of-type {
+    &:after {
+      display: none;
+    }
+  }
+}
